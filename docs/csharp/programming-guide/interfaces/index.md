@@ -45,7 +45,7 @@ A base class can also implement interface members by using virtual members. In t
 
 An interface has the following properties:  
 
-- An interface is like an abstract base class. Any class or struct that implements the interface must implement all its members.
+- An interface is like an abstract base class with only abstract members. Any class or struct that implements the interface must implement all its members.
 - An interface can't be instantiated directly. Its members are implemented by any class or struct that implements the interface.
 - Interfaces can contain events, indexers, methods, and properties.
 - Interfaces contain no implementation of methods.
